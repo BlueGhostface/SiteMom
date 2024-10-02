@@ -7,10 +7,28 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+
+    fontFamily: {
+      'sans': ['"Helvetica"', 'ui-sans-serif', 'system-ui'],
+  },
+  container: {
+      center: true,
+      padding: "2rem",
+      screens: {
+          'sm': '640px',
+          'md': '768px',
+          'lg': '1024px',
+          'xl': '1280px',
+          '2xl': '1536px',
+      },
+  },
+
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: {
+          DEFAULT: "#b642f5",
+          gradient: "#6d2196",
+      },
       },
     },
   },
