@@ -12,7 +12,7 @@ const config: Config = {
   		sans: ['Helvetica"', 'ui-sans-serif', 'system-ui']
   	},
   	container: {
-  		center: 'true',
+  		center: true,
   		padding: '2rem',
   		screens: {
   			sm: '640px',
@@ -24,7 +24,17 @@ const config: Config = {
   	},
   	extend: {
   		colors: {
-  			background: 'hsl(var(--background))',
+  			background: {
+				DEFAULT: '#f264fa',
+				gradient: '#aa3ab0'
+			},
+			nav:{
+				background:{
+					DEFAULT:'#492257'
+				}
+			},
+
+
   			foreground: 'hsl(var(--foreground))',
   			card: {
   				DEFAULT: 'hsl(var(--card))',
@@ -72,6 +82,5 @@ const config: Config = {
   		}
   	}
   },
-  plugins: [require("tailwindcss-animate")],
 };
 export default config;

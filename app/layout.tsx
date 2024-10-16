@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Header } from './domain/home/Header';
 
 
 export const metadata: Metadata = {
@@ -15,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-gradient-to-r from-background to-background-gradient" >
-        {children}
+        <Header/>{children}
       </body>
     </html>
   );
