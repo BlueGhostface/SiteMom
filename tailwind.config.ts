@@ -26,11 +26,20 @@ const config: Config = {
   		colors: {
   			background: {
 				DEFAULT: '#f264fa',
-				gradient: '#aa3ab0'
+				gradient: '#aa3ab0',
 			},
 			nav:{
 				background:{
-					DEFAULT:'#492257'
+					DEFAULT:'#ffd6ff',
+					button: {
+						DEFAULT:'#9163cb',
+						Hover:'#6247aa'
+					},
+					disabled:'#c8b6ff',
+				},
+				Text:{
+					Title:'#564592',
+					Button:'#532b88',
 				}
 			},
 
