@@ -8,7 +8,7 @@ export function ContactCard() {
           <h4 className="font-bold">{`Pauwels 'Tine'`}</h4>
           <div className="my-2">
             <div>Berthoutstraat 14</div>
-            <div>2570 Duffel</div>
+            <div>2570, Duffel</div>
           </div>
           <div>
             <div>GSM: (+32) 0468 12 78 75</div>
