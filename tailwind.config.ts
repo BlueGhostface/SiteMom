@@ -9,7 +9,7 @@ const config: Config = {
   ],
   theme: {
   	fontFamily: {
-  		sans: ['Helvetica"', 'ui-sans-serif', 'system-ui']
+  		sans: ['Helvetica', 'ui-sans-serif', 'system-ui']
   	},
   	container: {
   		center: true,
