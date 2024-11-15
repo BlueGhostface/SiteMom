@@ -27,6 +27,7 @@ const config: Config = {
   			background: {
 				DEFAULT: '#f264fa',
 				gradient: '#aa3ab0',
+				contact: '#ffd6ff',
 			},
 			nav:{
 				background:{
