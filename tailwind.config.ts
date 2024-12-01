@@ -23,11 +23,12 @@ const config: Config = {
   		}
   	},
   	extend: {
-  		colors: {
+  		colors: {	
   			background: {
 				DEFAULT: '#f264fa',
 				gradient: '#aa3ab0',
 				contact: '#ffd6ff',
+				homedetail: '#ffd6ff'
 			},
 			nav:{
 				background:{
@@ -41,7 +42,12 @@ const config: Config = {
 				Text:{
 					Title:'#564592',
 					Button:'#532b88',
+
+
 				}
+			},
+			Text:{
+				subTitle:'#614f9e',
 			},
 
 

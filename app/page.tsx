@@ -1,8 +1,9 @@
 import { ContactCard } from './domain/home/ContactCard';
+import { Detailcard } from '@/app/domain/home/Detailcard';
 export default function Home() {
   return (
-    <div className={`grid justify-between grid-cols-7 `}>
-      <div className="col-span-4 col-start-2">home</div>
+    <div className={`grid justify-between grid-cols-7 gap-3 `}>
+      <Detailcard/>
       <ContactCard/>
     </div>
   );
