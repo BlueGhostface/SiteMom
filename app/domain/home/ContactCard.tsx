@@ -1,5 +1,5 @@
 
-export function ContactCard() {
+export default function ContactCard() {
 
     return (
         <div className="col-span-1 col-start-6 p-2 bg-background-contact rounded-lg">
