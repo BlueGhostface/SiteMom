@@ -48,6 +48,7 @@ const config: Config = {
 			},
 			Text:{
 				subTitle:'#614f9e',
+				heading:'#715cb8',
 			},
 
 
