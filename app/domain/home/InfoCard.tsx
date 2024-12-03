@@ -18,6 +18,23 @@ export default function InfoCard() {
       <div className="text-start text-xl font-bold text-Text-heading">
         Pedicure Aan huis, Simpeler kan niet
       </div>
+      <div className="text-justify">
+        Hebt u last van diabetes? Dan is een goede voet- en nagelverzorging
+        onontbeerlijk. ook Personen met reuma of die kanker hebben voordelen aan
+        een behandeling van hun voeten. Wat uw problemen mogen zijn, we zorgen
+        voor een correcte aanpak. We nemen zorgvuldig onze tijd, en luisteren
+        naar uw klachten. Zo zal u zich nadien de behandeling veel lichter
+        voelen.
+      </div>
+
+      <div className="text-start text-xl font-bold text-Text-heading">
+        Neem vandaag nog contact op</div>
+      <div className="text-justify">
+        Hebt u eventuele vragen of wenst u een afspraak te maken. Neem vandaag
+        nog contact op voor uw pedicure aan huist tussen 8u30 en 20u00. We
+        werken in een straal van 10-15 km rond Duffel. We geven ook graag
+        informatie over onze prijzez, Neem zeker contact op met ons.
+      </div>
     </div>
   );
 }
