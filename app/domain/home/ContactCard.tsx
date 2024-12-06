@@ -2,7 +2,7 @@
 export default function ContactCard() {
 
     return (
-        <div className="col-span-1 col-start-6 p-2 bg-background-contact rounded-lg">
+        <div className="row-start-2 col-span-1 mb-2 sm:m-0 sm:row-start-1 sm:col-start-6 p-2 bg-background-contact rounded-lg">
         <h3 className="font-bold text-lg">Contact gegevens</h3>
         <div>
           <h4 className="font-bold">{`Pauwels 'Tine'`}</h4>

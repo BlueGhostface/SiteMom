@@ -42,7 +42,7 @@ export function Header() {
           >
             Pedicure Tine
           </h1>
-          <span className="text-sm">${currentPage()}</span>
+          <span className="text-sm">{currentPage()}</span>
           {/* Hamburger Icon */}
           <button
             className="md:hidden p-2"
