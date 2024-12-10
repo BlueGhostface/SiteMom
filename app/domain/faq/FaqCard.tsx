@@ -23,6 +23,13 @@ export default function FaqCard() {
         - mensen die overdag druk bezet zijn en geen tijd hebben.
       
       </div>
+
+      <div className="text-start text-xl font-bold text-Text-heading">
+        Wat houd een behandeling in ?
+      </div>
+      <div>
+
+      </div>
     </div>
   );
 }
