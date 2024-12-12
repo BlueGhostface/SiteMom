@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Header } from "./domain/home/Header";
+import Footer from "./domain/home/Footer";
 
 
 
@@ -16,8 +17,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-gradient-to-r from-background to-background-gradient h-screen" >
-        <Header/>{children}
+      <body className="flex flex-col bg-gradient-to-r from-background to-background-gradient h-screen" >
+        <Header/>
+        {children}
+        <Footer/>
       </body>
     </html>
   );
