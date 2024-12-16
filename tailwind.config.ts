@@ -28,7 +28,12 @@ const config: Config = {
 				DEFAULT: '#f264fa',
 				gradient: '#aa3ab0',
 				contact: '#ffd6ff',
-				homedetail: '#ffd6ff'
+				homedetail: '#ffd6ff',
+				footer: {
+					DEFAULT:'#db56e3',
+					gradient:'#a747ad'
+				},
+			
 			},
 			nav:{
 				background:{

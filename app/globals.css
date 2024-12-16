@@ -68,6 +68,10 @@ body {
   }
 }
 
+.shadow-top {
+  box-shadow: 0 -10px 15px -5px rgb(0 0 0 / 0.1), 0 -4px 6px -5px rgb(0 0 0 / 0.1);
+}
+
 @layer base {
   * {
     @apply border-border;
