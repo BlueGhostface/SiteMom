@@ -25,6 +25,8 @@ export function Header() {
         return "Contact";
       case "/faq":
         return "FAQ";
+      case "/behandeling":
+        return "behandeling";
       default:
         return "Test";
     }
@@ -73,6 +75,14 @@ export function Header() {
             </button>
             <button
               className={`p-2 rounded ${
+                pathname === "/behandeling" ? "bg-nav-background-disabled text-nav-Text-Button" : "bg-nav-background-button"
+              }`}
+              onClick={() => Navigate("/behandeling")}
+            >
+              behandeling
+            </button>
+            <button
+              className={`p-2 rounded ${
                 pathname === "/faq" ? "bg-nav-background-disabled text-nav-Text-Button" : "bg-nav-background-button"
               }`}
               onClick={() => Navigate("/faq")}
@@ -115,10 +125,17 @@ export function Header() {
                 />
                 <NavButton
                   path={pathname}
+                  currentPath="/behandeling"
+                  name="Behandeling"
+                  fn={() => Navigate("/behandeling")}
+                />
+                <NavButton
+                  path={pathname}
                   currentPath="/faq"
                   name="FAQ"
                   fn={() => Navigate("/faq")}
                 />
+                
               </div>
             </div>
           </div>
