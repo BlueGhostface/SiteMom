@@ -17,10 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="flex flex-col bg-gradient-to-r from-background to-background-gradient min-h-screen" >
+      <body className="flex flex-col bg-gradient-to-r from-background to-background-gradient min-h-screen">
         <Header/>
-        <main className="flex-grow">{children}</main>
-        
+        <main className="flex flex-grow h-full flex-col">{children}</main>
         <Footer/>
       </body>
     </html>
