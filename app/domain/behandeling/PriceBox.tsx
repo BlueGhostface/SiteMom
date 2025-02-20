@@ -14,6 +14,17 @@ const testdata = [
     behandeling: "pedicure",
     duurtijd: "5,",
     inclusive: true,
+  },{
+    id: 1,
+    behandeling: "manicure",
+    duurtijd: "10,",
+    inclusive: true,
+  },
+  {
+    id: 1,
+    behandeling: "behandelen van likdoorn",
+    duurtijd: "5,",
+    inclusive: false,
   },
 ];
 
@@ -35,7 +46,7 @@ export default function PriceBox() {
             <TableRow key={data.id}>
               <TableCell className="w-1/3">{data.behandeling}</TableCell>
               <TableCell className="w-1/3">{data.duurtijd} minuten</TableCell>
-              <TableCell className="w-1/3">{data.inclusive}</TableCell>
+              <TableCell className="w-1/3">{(data.inclusive) ? "inclusief" : "niet inbegrepen"}</TableCell>
             </TableRow>
           ))}
         </TableBody>
